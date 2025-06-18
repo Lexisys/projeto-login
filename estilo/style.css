@@ -38,9 +38,12 @@ main{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+
+    transition: width .3s, height 1s;
+    transition-timing-function: ease;
 }
 
-section#login > div#imagem{
+#login > div#imagem{
     display: block;
     background: #eddada url(../imagens/fundo.jpg) no-repeat;
     background-position: center;
