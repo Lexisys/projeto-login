@@ -56,3 +56,69 @@ main{
     padding: 10px;
 
 }
+
+#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+#formulario > p{
+    font-size: 0.8em;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #9cad8c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.campo > label{
+    display: none;
+}
+
+form > .campo{
+    background-color: #eddada ;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+
+}
+
+form > input[type=submit]:hover{
+    background-color: #7a9b6c;
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #9cad8c;
+    border: 1px solid #7a9b6c;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+form > a.botao:hover{
+    background-color: #7a9b6c;
+}
+
+form > a.botao > span{
+    font-size: 0.8em;
+}
+
+
